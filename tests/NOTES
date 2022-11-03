@@ -1,0 +1,15 @@
+Create AIS Transmitted SAR Pattern:
+
+Concept is to use HTML page to read the SAR OPS plan to
+build the dict file. 
+
+Send Dict to python PYAIS to encode the AIS message
+    1. build the payload IAW IDD
+    2. create the NEMA sentance
+    3. return NEMA sentance to page???  
+
+Copy NEMA to another page which will send sentance to
+hard coded Base station(s).
+
+Use MSG 26 FID xx
+
